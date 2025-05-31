@@ -1,0 +1,20 @@
+# Blockchain Network Configuration
+# This file will contain parameters for connecting to different blockchain networks
+# (e.g., Ethereum, Hyperledger Fabric, Oasis).
+
+# Example for Ethereum:
+# ethereum_node_url: "http://localhost:8545"
+# ethereum_chain_id: 1337
+# ethereum_gas_limit: 2000000
+
+# Example for Fabric:
+# fabric_connection_profile_path: "/path/to/connection-profile.yaml"
+# fabric_channel_name: "mychannel"
+# fabric_chaincode_name: "mychaincode"
+# fabric_user_identity: "user1"
+# fabric_wallet_path: "/path/to/wallet"
+
+# Example for Oasis:
+# oasis_paratime_url: "http://localhost:26657" # Or appropriate gRPC/WebSockets endpoint
+# oasis_chain_context: "..." # Chain context for signing transactions
+# oasis_runtime_id: "..." # Runtime ID for the ParaTime
