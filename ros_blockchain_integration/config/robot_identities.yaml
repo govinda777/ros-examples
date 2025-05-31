@@ -1,0 +1,33 @@
+# Robot Identities and Credentials
+# This file will store information related to robot identities for blockchain interaction.
+# This might include wallet addresses, cryptographic keys (or paths to key files),
+# and other identifiers necessary for authentication and authorization on the blockchain.
+
+# IMPORTANT: For security, avoid storing raw private keys directly in this file in a production environment.
+# Consider using environment variables, secure vaults, or hardware security modules (HSMs).
+
+# Example structure:
+# robots:
+#   - robot_id: "robot_001"
+#     blockchain_platform: "ethereum" # or "fabric", "oasis"
+#     wallet_address: "0xYourEthereumAddress1"
+#     # key_path: "/secure/path/to/robot_001_private_key.pem" # Example for key file
+#     # For Fabric, might include enrollment ID and secret or certificate paths
+#     fabric_identity_label: "robot1_org1"
+#     # For Oasis, might include account address and path to mnemonic or private key file
+#     oasis_account_address: "oasis1..."
+
+#   - robot_id: "robot_002"
+#     blockchain_platform: "fabric"
+#     fabric_identity_label: "robot2_org1"
+#     # msp_id: "Org1MSP"
+#     # certificate_path: "/path/to/robot2_cert.pem"
+#     # private_key_path: "/path/to/robot2_pk.pem"
+
+#   - robot_id: "drone_alpha"
+#     blockchain_platform: "ethereum"
+#     wallet_address: "0xYourEthereumAddress2"
+#     # Further details specific to drone operations or data logging
+#     data_contracts:
+#       sensor_audit: "0xContractAddressForSensorAudit"
+#       maintenance_log: "0xContractAddressForMaintenance"

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- This launch file will integrate ROS with blockchain nodes. -->
+    <!-- Configuration and nodes will be added here. -->
+</launch>
